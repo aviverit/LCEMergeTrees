@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace LCEMergeTrees
 {
-    class Program
+
+    public class TreeNode
     {
-        static void Main(string[] args)
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int x)
         {
-
-
-
+            val = x;
         }
     }
 }
